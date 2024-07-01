@@ -1,0 +1,122 @@
+body {  
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;  
+}
+
+/* Header Stuff Here */
+header {
+    background-color: #eaeaea;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #B069F0;
+    letter-spacing: 3.9px;
+}
+header p {
+    margin: 0;
+    color: #B069F0;
+}
+
+/* nav stuff goes here */
+nav {
+    background-color: #DD7DF0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: white;
+    color: #DD7DF0;
+}
+nav a:hover {
+    color: black;
+}
+
+/* stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #F06777;
+}
+
+main h2 {
+    color: #D977ED;
+    margin-bottom: .2rem; 
+}
+
+main p {
+    margin: 0 0 .3rem 0; 
+    color: #B069F0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    color: white;
+    background-color: #B069F0;
+}
+
+main dl dt {
+    color: #F06CCA;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #F06777;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+main address {
+    font-style: normal;
+    color: white;
+    background-color: #B069F0;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px dashed #F06777;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #B069F0;
+}
+
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+/* Footer Stuff Here */
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #F06777;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #B069F0;
+}
