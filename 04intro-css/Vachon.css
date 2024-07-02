@@ -12,17 +12,17 @@ header {
 }
 header h1 {
     margin: 0;
-    color: #B069F0;
+    color: #8D0ABD;
     letter-spacing: 3.9px;
 }
 header p {
     margin: 0;
-    color: #B069F0;
+    color: #8D0ABD;
 }
 
 /* nav stuff goes here */
 nav {
-    background-color: #DD7DF0;
+    background-color: #0B34D5;
 }
 nav ul {
     list-style-type: none;
@@ -40,7 +40,7 @@ nav a {
 }
 nav li.active a {
     background-color: white;
-    color: #DD7DF0;
+    color: #4D4F56;
 }
 nav a:hover {
     color: black;
@@ -52,23 +52,23 @@ main {
 }
 
 main h1 {
-    color: #F06777;
+    color: #1B28DE;
 }
 
 main h2 {
-    color: #D977ED;
+    color: #810BAD;
     margin-bottom: .2rem; 
 }
 
 main p {
     margin: 0 0 .3rem 0; 
-    color: #B069F0;
+    color: #1B28DE;
 }
 
 main ol {
     padding: .5rem 3vw;
     color: white;
-    background-color: #B069F0;
+    background-color: #8D0ABD;
 }
 
 main dl dt {
@@ -88,13 +88,17 @@ main ul {
 main ul li {
     line-height: 125%;
     margin-bottom: .5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+main ul a {
+    color: black;
 }
 
 main address {
     font-style: normal;
     color: white;
-    background-color: #B069F0;
+    background-color: #8D0ABD;
     padding: .5rem;
     width: 12.5rem;
     border: 1px dashed #F06777;
@@ -113,10 +117,10 @@ main a:hover {
 footer {
     background-color: #eaeaea;
     text-align: center;
-    color: #F06777;
+    color: #4D4F56;
     padding: 1rem 0;
     font-size: .8rem;
 }
 footer a {
-    color: #B069F0;
+    color: #8D0ABD;
 }
