@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <title>Cinephile Vachon Theatre: Home</title>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="See classic movies being shown at your local theatre">
+        <meta name="author" content="Jordan Anderson">
+        <link rel="stylesheet" href="Vachon.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+              
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>Cinephile Vachon Theatre</h1>
+            <p><strong>Your Ultimate Destination for Classic Movies on the Big Screen</strong></p>
+        </header>
+        <!-- Start of the page navigtation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Now Playing</a></li>
+                <li><a href="shows.html">Coming Soon</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="memberships.html">Become a Member</a></li>
+            </ul>
+            
+        </nav> 
+        
+        <main>
+            <h1>Become a Member</h1>
+            
+            <form method="get" class="myForm" action="thanks.html">
+            
+            <fieldset><legend>Customer Infomation</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Phone Number*<input type="tel" name="phone" required></label>
+            <label>Email*<input type="email" name="email" required></label>
+            </fieldset>
+                
+            <fieldset>
+            <legend>Membership Delivery Method</legend>
+                    <label><input type="radio" name="method" value="train">Train Delivery (5hrs)</label>
+                    <label><input type="radio" name="method" value="truck">Truck Delivery (3hrs)</label>
+                    <label><input type="radio" name="method" value="plane">Plane Delivery (1hr)</label>
+                    
+            </fieldset>
+                
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="front" value="chosen">Front Door</label>
+                <label><input type="checkbox" name="rear" value="chosen">Rear Door</label>
+                <label><input type="checkbox" name="garage" value="chosen">Garage</label>
+                
+                <label>Delivery Time of Choice
+                <select name="time">
+                <option value="none">Please Select</option>
+                <option value="morning">Between 6:00am and 11:00am</option>
+                <option value="noon">Between 11:00am and 3:00pm</option>
+                <option value="afternoon">Between 3:00pm and 5:00pm</option>
+                <option value="evening">Between 5:00pm and 9:00pm</option>
+                </select>
+                </label>
+            
+            </fieldset>
+                
+            <label>Comments
+                <textarea name="comments"></textarea>  
+            </label>
+            
+            <input type="submit" value="Finish Membership Purchase">
+            </form>
+        
+        
+        
+        
+        
+        
+        
+        
+        </main>
+        
+        
+        
+        
+        
+        
+        <!-- Start of the page footer -->
+        <footer>
+            <p>&copy; 2024 &bull; Jordan Anderson &bull; <a href="mailto:jordanand94@gmail.com">Email Us</a></p>
+        </footer>
+        
+    </body>
+</html>
